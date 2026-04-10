@@ -5,12 +5,12 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site!</h1>");
+    res.send("<h1>Bem vindo ao meu mais novo site! Bem legal ne?</h1>");
 })
 
 //rota do cadastro de produtos
 app.get("/produtos", function(req,res){
-    res.send("<h1>Lista de Produtos!</h1>");
+    res.send("<h1>Lista de Produtos! Agora maior!</h1>");
 })
 
 //rota com parametro
